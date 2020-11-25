@@ -1,12 +1,17 @@
 /* debug */
 .debug [class*='col-']{
-  background-color: blue;
+  background-color: lightgreen;
   height: 100px;
   border: 1px solid red;
 }
 
+.debug .h_100{
+  height:100px;
+}
+
 .debug .h_200{
   height: 200px;
+  background-color: blue;
 }
 
 .debug .h_300{
@@ -24,4 +29,75 @@
   height: 600px;
 }
 
+.p_bt{
+  padding: 50px 0;
+}
+
 /* debug */
+
+/* jumbotron */
+#jumbotron {
+  background-color: lightblue;
+}
+
+/* main */
+/* SECTION-CUSTOMER */
+
+#img_customer{
+  background-color: #ddd;
+}
+.mcs_line_height{
+  line-height: 100px;
+}
+/* DEVELOPERS */
+#developers{
+  background-color: #f0f0f0;
+}
+
+#developers img{
+  width: 100%;
+
+}
+
+#developers i {
+  font-size: 60px;
+}
+
+#developers a i {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 991px)  {
+  .mcs_brg_menu{
+    display:block;
+  }
+  .mcs_item_menu,
+  .mcs_right_menu{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .mcs_brg_menu{
+    display:none;
+  }
+  .mcs_item_menu,
+  .mcs_right_menu{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 420px){
+  #developers i{
+    display: none;
+  }
+}
+
+/* END css*/
