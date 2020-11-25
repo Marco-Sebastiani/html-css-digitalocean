@@ -1,0 +1,27 @@
+/* debug */
+.debug [class*='col-']{
+  background-color: blue;
+  height: 100px;
+  border: 1px solid red;
+}
+
+.debug .h_200{
+  height: 200px;
+}
+
+.debug .h_300{
+  height: 300px;
+}
+.debug .h_400{
+  height: 400px;
+}
+
+.debug .h_500{
+  height: 500px;
+}
+
+.debug .h_600{
+  height: 600px;
+}
+
+/* debug */
