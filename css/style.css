@@ -143,8 +143,27 @@ header .mcs_brg_menu{
 
 #jumbotron .mcs_padding{
   color: #fff;
-  padding: 4px 148px;
+  width: 100%;
   background-color: #004aff;
+}
+
+#jumbotron .mcs_google::before{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: url('../img/google-icon.png');
+  background-size: cover;
+}
+
+#jumbotron .mcs_google{
+  width: 100%;
+  margin: 10px 0;
+}
+
+#jumbotron :not(p:first-child){
+  color: red;
 }
 
 /* main */
