@@ -5,6 +5,10 @@
   border: 1px solid red;
 }
 
+.debug .row.row [class*='col-']{
+  height: 50px;
+}
+
 .debug .h_100{
   height:100px;
 }
@@ -67,7 +71,14 @@
   font-size: 20px;
 }
 
+/* DATA CUSTOMER */
+#data_customers{
+  background-color: lightblue;
+}
 
+#data_customers .row .row {
+  border-bottom:2px solid #fff;
+}
 
 
 
