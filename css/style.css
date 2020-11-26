@@ -33,6 +33,9 @@
   height: 600px;
 }
 /* debug */
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 ul{
   list-style: none;
@@ -50,9 +53,18 @@ a{
 
 .mcs_btn_style{
   background-color: #fff;
-  color: #6aa8ff;
-  border: 1px solid #6aa8ff;
+  color: #004aff;
+  border: 1px solid #004aff;
 }
+
+.mcs_color{
+  color: #fff;
+}
+
+.mcs_bcg_form{
+  background-color: #fff;
+}
+
 
 .p_bt{
   padding: 50px 0;
@@ -71,7 +83,12 @@ a{
 
 /* HEADER */
 header .mcs_box_nav{
-  width: 55%;
+  height: 30px;
+}
+
+header h1{
+  font-weight: bold;
+  font-size: 15px;
 }
 
 header nav {
@@ -89,9 +106,24 @@ header ul i {
   padding-left: 5px;
 }
 
+header .mcs_brg_menu{
+  color: #004aff;
+  font-size: 20px;
+}
+
 /* jumbotron */
 #jumbotron {
-  background-color: lightblue;
+  background-image: url('../img/bg-home-1.jpg');
+}
+
+#jumbotron h2{
+  font-size: 35px;
+  color: #031b4e;
+}
+
+#jumbotron h3{
+  color: #004aff;
+
 }
 
 /* main */
@@ -110,8 +142,8 @@ header ul i {
 
 #developers img{
   width: 100%;
-
 }
+
 
 /* DATA CUSTOMER */
 #data_customers{
@@ -142,7 +174,7 @@ footer{
 
 
 
-@media screen and (max-width: 1198px)  {
+/* @media screen and (max-width: 1198px)  {
   .mcs_brg_menu{
     display:block;
   }
@@ -161,7 +193,7 @@ footer{
   .mcs_right_menu{
     display: block;
   }
-}
+} */
 
 @media screen and (max-width: 420px){
   #developers i,
