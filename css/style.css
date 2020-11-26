@@ -34,6 +34,26 @@
 }
 /* debug */
 
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #33475b;
+}
+
+.mcs_btn{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.mcs_btn_style{
+  background-color: #fff;
+  color: #6aa8ff;
+  border: 1px solid #6aa8ff;
+}
+
 .p_bt{
   padding: 50px 0;
 }
@@ -48,6 +68,26 @@
   font-size: 20px;
 }
 
+
+/* HEADER */
+header .mcs_box_nav{
+  width: 55%;
+}
+
+header nav {
+  height: 70px;
+  line-height: 70px;
+}
+
+header ul li{
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+header ul i {
+  padding-left: 5px;
+}
 
 /* jumbotron */
 #jumbotron {
@@ -102,7 +142,7 @@ footer{
 
 
 
-@media screen and (max-width: 991px)  {
+@media screen and (max-width: 1198px)  {
   .mcs_brg_menu{
     display:block;
   }
@@ -113,7 +153,7 @@ footer{
 
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   .mcs_brg_menu{
     display:none;
   }
