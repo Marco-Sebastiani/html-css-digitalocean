@@ -5,7 +5,7 @@
   border: 1px solid red;
 }
 
-.debug .row.row [class*='col-']{
+.debug .row .row [class*='col-']{
   height: 50px;
 }
 
@@ -32,12 +32,22 @@
 .debug .h_600{
   height: 600px;
 }
+/* debug */
 
 .p_bt{
   padding: 50px 0;
 }
 
-/* debug */
+#developers i,
+#rocker i {
+  font-size: 60px;
+}
+
+#developers a i,
+#rocker a i {
+  font-size: 20px;
+}
+
 
 /* jumbotron */
 #jumbotron {
@@ -63,14 +73,6 @@
 
 }
 
-#developers i {
-  font-size: 60px;
-}
-
-#developers a i {
-  font-size: 20px;
-}
-
 /* DATA CUSTOMER */
 #data_customers{
   background-color: lightblue;
@@ -80,7 +82,23 @@
   border-bottom:2px solid #fff;
 }
 
+/* ROCKER */
+#rocker{
+  background-color: #f0f0f0;
+}
 
+#rocker img{
+  width: 100%;
+}
+
+#rocker .msc_rocker_box{
+  background-color: #fff;
+}
+
+footer{
+  height: 500px;
+  background-color: lightblue;
+}
 
 
 
@@ -106,7 +124,8 @@
 }
 
 @media screen and (max-width: 420px){
-  #developers i{
+  #developers i,
+  #rocker i{
     display: none;
   }
 }
