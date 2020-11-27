@@ -62,6 +62,10 @@ a{
   padding: 50px 0;
 }
 
+.m-bt_10{
+  margin: 10px 0;
+}
+
 #jumbotron h2,
 #jumbotron h3 {
   font-weight: bold;
@@ -196,10 +200,37 @@ line-height: 150px;
   /* height: 60px; */
 }
 
-#img_customer .container{
 
+
+/* OPTIMIZ */
+#optimize h4 {
+  font-weight: bold;
+  padding-top: 15px;
 }
 
+#optimize p{
+  color: #747f9a;
+  font-size: 22px;
+}
+
+#optimize .mcs_p_size p{
+  font-size: 14px;
+}
+
+#optimize ul{
+  text-transform: capitalize;
+  margin-left:50px;
+}
+
+#optimize li{
+  padding: 10px 5px;
+}
+
+#optimize li a{
+  color: #75809a;
+  border-left: 1px solid #a4cedf;
+  padding:20px 10px;
+}
 
 /* DEVELOPERS */
 #developers{
@@ -266,6 +297,12 @@ footer{
   #rocker i{
     display: none;
   }
+
+ #optimize  ul {
+    margin-left:  0!important;
+    padding-left: 0;
+  }
+
 }
 
 /* END css*/
