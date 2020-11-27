@@ -394,8 +394,8 @@ footer{
     margin-left:0;
   }
 
-  .mcs_xs_margin{
-    padding-top: 40px !important;
+  #data_customers [class*="col-lg"]{
+    margin-bottom: 25px;
   }
 
 }
