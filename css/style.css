@@ -47,6 +47,7 @@ a{
   font-size: 16px;
 }
 
+/* GENERAL RULES  */
 .mcs_btn{
   padding: 10px;
   border-radius: 5px;
@@ -58,6 +59,10 @@ a{
   border: 1px solid #004aff;
 }
 
+.mcs_bcg_white{
+  background-color: #fff;
+}
+
 .p_bt{
   padding: 50px 0;
 }
@@ -66,6 +71,13 @@ a{
   margin: 10px 0;
 }
 
+.mcs_color_green{
+  color:#00d3d0;
+  padding-right: 5px;
+}
+
+/* RULES COMMONS */
+
 #jumbotron h2,
 #jumbotron h3 {
   font-weight: bold;
@@ -73,7 +85,9 @@ a{
 
 #jumbotron h3,
 #jumbotron a,
-#img_customer a{
+#img_customer a,
+#developers a,
+#business a {
   color: #004aff;
 }
 
@@ -87,6 +101,31 @@ a{
   font-size: 20px;
 }
 
+
+#developers .mcs_arrow::before,
+#rocker .mcs_arrow::before{
+  content: "\f053";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-size: 35px;
+  color: #75809a;
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translateY(-50%);
+}
+
+#developers .mcs_arrow::after,
+#rocker .mcs_arrow::after{
+  content: "\f054";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transform: translateY(-50%);
+}
 
 /* HEADER */
 header .mcs_box_nav{
@@ -239,28 +278,53 @@ line-height: 150px;
   width: 100%;
 }
 
-#developers .mcs_pippo::before,
-#developers .mcs_pippo::after{
-  content: "\f054";
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-
+#developers h4{
+  margin-top: 30px;
 }
 
+#developers a i{
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+#developers a i:hover{
+  background-color: #004aff;
+  border-radius: 100%;
+}
+
+/* BUSINESs */
+
+#business {
+  margin: 50px 0;
+}
+
+#business h2{
+  font-weight: bold;
+}
+
+#business h3{
+  font-weight: bold;
+}
+
+#business img{
+  margin-top: 20px;
+}
 
 /* DATA CUSTOMER */
 #data_customers{
-  background-color: lightblue;
+  background-image: linear-gradient(to bottom, #0048c5 , #00219d );
+  color: #fff;
+  padding: 50px 0;
 }
 
-#data_customers .row .row {
-  border-bottom:2px solid #fff;
+#data_customers .row .row:not(:last-child) {
+  border-bottom:1px solid #fff;
 }
+
+#data_customers p{
+  margin-top: 10px;
+}
+
 
 /* ROCKER */
 #rocker{
@@ -274,6 +338,8 @@ line-height: 150px;
 #rocker .msc_rocker_box{
   background-color: #fff;
 }
+
+
 
 footer{
   height: 500px;
@@ -304,8 +370,10 @@ footer{
 } */
 
 @media screen and (max-width: 420px){
-  #developers i,
-  #rocker i{
+  #developers .mcs_arrow::before,
+  #developers .mcs_arrow::after,
+  #rocker .mcs_arrow::before,
+  #rocker .mcs_arrow::after {
     display: none;
   }
 
