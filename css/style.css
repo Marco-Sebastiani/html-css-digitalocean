@@ -73,7 +73,14 @@ a{
 
 .mcs_color_green{
   color:#00d3d0;
-  padding-right: 5px;
+}
+
+.mcs_margin_span{
+  margin-left: 7px;
+}
+
+.mcs_margin-left{
+  margin-left: 20px;
 }
 
 /* RULES COMMONS */
@@ -326,6 +333,7 @@ line-height: 150px;
 }
 
 
+
 /* ROCKER */
 #rocker{
   background-color: #f0f0f0;
@@ -380,6 +388,14 @@ footer{
  #optimize  ul {
     margin-left:  0!important;
     padding-left: 0;
+  }
+
+  #data_customers .mcs_margin-left{
+    margin-left:0;
+  }
+
+  .mcs_xs_margin{
+    padding-top: 40px !important;
   }
 
 }
