@@ -239,7 +239,8 @@ line-height: 150px;
   width: 100%;
 }
 
-#developers img::before{
+#developers .mcs_pippo::before,
+#developers .mcs_pippo::after{
   content: "\f054";
   font-weight: 900;
   font-family: "Font Awesome 5 Free";
