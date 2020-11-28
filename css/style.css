@@ -354,8 +354,6 @@ line-height: 150px;
   margin-top: 10px;
 }
 
-
-
 /* ROCKER */
 #rocker{
   background-color: #fafafa;
@@ -391,10 +389,6 @@ line-height: 150px;
 padding: 60px 0;
 }
 
-/* #rocker .msc_rocker_box{
-  background-color: #fff;
-} */
-
 /* GET_STARTED  */
 
 #get_started {
@@ -408,14 +402,26 @@ padding: 60px 0;
   color: #fff;
 }
 
-
-
-
+/* FOOTER */
 footer{
   height: 500px;
-  background-color: lightblue;
+  background-color: #031c4e;
 }
 
+footer ul.mcs_margin_zero{
+  padding-left: 0;
+}
+
+footer ul li a{
+  font-size: 20px;
+  color: #7a859d;
+
+}
+
+footer .mcs_inline{
+  display: inline-block;
+  padding-right: 10px;
+}
 
 
 /* @media screen and (max-width: 1198px)  {
