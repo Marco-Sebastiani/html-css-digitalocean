@@ -67,6 +67,14 @@ a{
   padding: 50px 0;
 }
 
+.p_bt_40 {
+  padding: 40px 0;
+}
+
+.p_b{
+  padding-bottom: 90px;
+}
+
 .m-bt_10{
   margin: 10px 0;
 }
@@ -83,6 +91,10 @@ a{
   margin-left: 20px;
 }
 
+.mcs_text_color{
+  color: #747f9a;
+}
+
 /* RULES COMMONS */
 
 #jumbotron h2,
@@ -94,8 +106,15 @@ a{
 #jumbotron a,
 #img_customer a,
 #developers a,
-#business a {
+#business a,
+#rocker a {
   color: #004aff;
+}
+
+#developers a i:hover,
+#rocker a i:hover{
+  background-color: #004aff;
+  border-radius: 100%;
 }
 
 #developers i,
@@ -104,10 +123,9 @@ a{
 }
 
 #developers a i,
-#rocker a i {
-  font-size: 20px;
+#rocker a i{
+  font-size: 10px;
 }
-
 
 #developers .mcs_arrow::before,
 #rocker .mcs_arrow::before{
@@ -118,7 +136,7 @@ a{
   color: #75809a;
   position: absolute;
   top: 50%;
-  left: -25px;
+  left: -30px;
   transform: translateY(-50%);
 }
 
@@ -130,7 +148,7 @@ a{
   font-size: 35px;
   position: absolute;
   top: 50%;
-  right: -25px;
+  right: -30px;
   transform: translateY(-50%);
 }
 
@@ -238,7 +256,6 @@ line-height: 150px;
 }
 
 #img_customer h3{
-  color: #747f9a;
   font-size: 20px;
 }
 
@@ -253,7 +270,6 @@ line-height: 150px;
 }
 
 #optimize p{
-  color: #747f9a;
   font-size: 22px;
 }
 
@@ -266,37 +282,36 @@ line-height: 150px;
   margin-left:50px;
 }
 
-#optimize li{
+#optimize ul li{
   padding: 10px 5px;
 }
 
-#optimize li a{
-  color: #75809a;
+#optimize ul li a{
   border-left: 1px solid #a4cedf;
   padding:20px 10px;
 }
 
 /* DEVELOPERS */
 #developers{
-  background-color: #f0f0f0;
+  background-color: #fafafa;
+  padding: 40px 0;
 }
 
 #developers img{
   width: 100%;
 }
 
+#developers h2{
+  font-weight: bold;
+}
+
 #developers h4{
   margin-top: 30px;
 }
 
-#developers a i{
-  font-size: 15px;
-  margin-bottom: 50px;
-}
-
-#developers a i:hover{
-  background-color: #004aff;
-  border-radius: 100%;
+#developers p{
+  margin: 20px 0;
+  font-size: 20px;
 }
 
 /* BUSINESs */
@@ -336,16 +351,28 @@ line-height: 150px;
 
 /* ROCKER */
 #rocker{
-  background-color: #f0f0f0;
+  background-color: #fafafa;
 }
 
 #rocker img{
-  width: 100%;
+  width: 55%;
 }
 
-#rocker .msc_rocker_box{
-  background-color: #fff;
+#rocker .mcs_margin_negative {
+  margin-top: -60px;
 }
+
+#rocker p{
+  font-size: 20px;
+}
+
+#rocker .mcs_box_rocker{
+padding: 60px 0;
+}
+
+/* #rocker .msc_rocker_box{
+  background-color: #fff;
+} */
 
 
 
@@ -430,6 +457,19 @@ footer{
   .mcs_color_green{
     font-size: 10px;
     font-weight: bold;
+  }
+
+  #rocker img{
+    width: 90%;
+  }
+
+  #rocker p{
+    font-size: 13px;
+    margin: 15px 0;
+  }
+
+  #rocker .mcs_box_rocker{
+  padding: 20px 0;
   }
 
 }
