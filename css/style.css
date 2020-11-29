@@ -585,6 +585,9 @@ footer ul span{
   padding: 20px 0;
   }
 
+  #box_chat{
+    display: none;
+  }
 
 }
 
